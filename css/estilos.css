@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+TZ+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+:root {
+  --color-primario: #33ff37;
+  --color-secundario: #ff9c33;
+  --color-negro: #000000;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: 2.5rem;
+  color: var(--color-secundario);
+  font-style: normal;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--color-primario);
+  color: var(--color-negro);
+  font-family: "Roboto", sans-serif;
+}
+.pasati {
+  padding: 2rem;
+}
+.centerimg img {
+  border-radius: 100%;
+  margin-bottom: 3rem;
+}
+.centerimg h1,
+img,
+figcaption {
+  text-align: center;
+}
+
+.titulo-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.ajustar {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+.ajustar::first-letter {
+  color: var(--color-secundario);
+}
