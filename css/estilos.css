@@ -29,12 +29,20 @@ h1 {
   text-align: center;
   margin: 2rem;
 }
-
+img {
+  width: 100%;
+  height: auto;
+}
 body {
   font-size: 1.6rem;
   background-color: var(--color-primario);
   color: var(--color-negro);
   font-family: "Roboto", sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 2rem;
 }
 .pasati {
   padding: 2rem;
@@ -47,6 +55,8 @@ body {
 img,
 figcaption {
   text-align: center;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .titulo-thin {
@@ -60,4 +70,66 @@ figcaption {
 }
 .ajustar::first-letter {
   color: var(--color-secundario);
+}
+
+.imgmodi,
+h4,
+p,
+div {
+  padding: 2rem;
+}
+
+.resaltar {
+  color: var(--color-secundario);
+}
+.listaco {
+  padding: 2rem;
+}
+.gusto {
+  padding: 2 rem;
+  margin: 2rem;
+  opacity: 0.5;
+}
+/*cambiar la aprencia en una tableta*/
+
+@media screen and (min-width: 768px) {
+  .fotomi {
+    max-width: 225px;
+    padding: 6rem;
+  }
+
+  .agroup {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+/* cambiar la aprencia a pc*/
+@media screen and (min-width: 1024px) {
+  .fotobobi {
+    width: 30rem;
+  }
+  .imgmodi {
+    display: flex;
+  }
+  .imgmodi figure,
+  .imgmodi div {
+    width: 50%;
+  }
+  .imgmodi figure {
+    order: 1;
+  }
+  .imgmodi div {
+    order: 0;
+  }
+}
+/*pantallas de mas de 1200px*/
+@media screen and (min-width: 1200px) {
+  body {
+    max-width: 1024px;
+    margin: auto;
+  }
+  .imgmodi figure img {
+    border-radius: 2rem;
+  }
 }

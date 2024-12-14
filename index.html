@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
     <title>ALvaroA.BahosC.</title>
   </head>
   <body>
     <header>
       <section class="centerimg">
         <h1 class=".titulo-thin">Alvaro Andres Bahos Canencio</h1>
-        <img src="img/me.jpeg" alt="fotome" />
+        <img class="fotomi" src="img/me.jpeg" alt="fotome" />
         <figcaption>fotome</figcaption>
       </section>
       <p class="ajustar">
@@ -23,58 +23,80 @@
     </header>
     <hr />
     <main>
-      <h2 class="pasati">Mis pasatiempos</h2>
-      <ul>
-        <li>Jugar futbol</li>
-        <li>Ver series</li>
-        <li>Compartir en Familia</li>
-        <li>Viajar</li>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-badge-3d"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M4.52 8.368h.664c.646 0 1.055.378 1.06.9.008.537-.427.919-1.086.919-.598-.004-1.037-.325-1.068-.756H3c.03.914.791 1.688 2.153 1.688 1.24 0 2.285-.66 2.272-1.798-.013-.953-.747-1.38-1.292-1.432v-.062c.44-.07 1.125-.527 1.108-1.375-.013-.906-.8-1.57-2.053-1.565-1.31.005-2.043.734-2.074 1.67h1.103c.022-.391.383-.751.936-.751.532 0 .928.33.928.813.004.479-.383.835-.928.835h-.632v.914zm3.606-3.367V11h2.189C12.125 11 13 9.893 13 7.985c0-1.894-.861-2.984-2.685-2.984zm1.187.967h.844c1.112 0 1.621.686 1.621 2.04 0 1.353-.505 2.02-1.621 2.02h-.844z"
+      <div class="agroup">
+        <div>
+          <h2 class="pasati">Mis pasatiempos</h2>
+          <ul class="listaco">
+            <li>Jugar futbol</li>
+            <li>Ver series</li>
+            <li>Compartir en Familia</li>
+            <li>Viajar</li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-badge-3d"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4.52 8.368h.664c.646 0 1.055.378 1.06.9.008.537-.427.919-1.086.919-.598-.004-1.037-.325-1.068-.756H3c.03.914.791 1.688 2.153 1.688 1.24 0 2.285-.66 2.272-1.798-.013-.953-.747-1.38-1.292-1.432v-.062c.44-.07 1.125-.527 1.108-1.375-.013-.906-.8-1.57-2.053-1.565-1.31.005-2.043.734-2.074 1.67h1.103c.022-.391.383-.751.936-.751.532 0 .928.33.928.813.004.479-.383.835-.928.835h-.632v.914zm3.606-3.367V11h2.189C12.125 11 13 9.893 13 7.985c0-1.894-.861-2.984-2.685-2.984zm1.187.967h.844c1.112 0 1.621.686 1.621 2.04 0 1.353-.505 2.02-1.621 2.02h-.844z"
+              />
+              <path
+                d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"
+              />
+            </svg>
+            <li>
+              Aprender cada dìa conocimientos que ayuden a progresar en la vida
+            </li>
+          </ul>
+          <hr />
+        </div>
+
+        <div>
+          <section>
+            <h3 class="rutina">rutina</h3>
+            <ol>
+              <li>levantarme</li>
+              <li>orinar</li>
+              <li>bañarme</li>
+              <li>vestirme</li>
+              <li>trabajar</li>
+              <li>dormir</li>
+            </ol>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-basket2"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z"
+              />
+              <path
+                d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z"
+              />
+            </svg>
+          </section>
+        </div>
+      </div>
+      <h4>imagen correcion tamaño</h4>
+      <div class="imgmodi">
+        <figure>
+          <img
+            class="fotobobi"
+            src="img/gorra bobina.webp"
+            alt="grande bobina"
           />
-          <path
-            d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"
-          />
-        </svg>
-        <li>
-          Aprender cada dìa conocimientos que ayuden a progresar en la vida
-        </li>
-      </ul>
-      <hr />
-      <section>
-        <h3>rutina</h3>
-        <ol>
-          <li>levantarme</li>
-          <li>orinar</li>
-          <li>bañarme</li>
-          <li>vestirme</li>
-          <li>trabajar</li>
-          <li>dormir</li>
-        </ol>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-basket2"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z"
-          />
-          <path
-            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z"
-          />
-        </svg>
-      </section>
+        </figure>
+
+        <div>
+          <p>me <span class="resaltar">gusta mucho</span> las gorras</p>
+          <p>me gusta tambiend e diferentes colores</p>
+        </div>
+      </div>
     </main>
     <aside>
       <section>
@@ -97,6 +119,14 @@
             </tr>
           </tbody>
         </table>
+      </section>
+      <section>
+        <h5 class="gusto">Me gusta jugar</h5>
+        <ul>
+          <li>voley</li>
+          <li>soccer</li>
+          <li>basketball</li>
+        </ul>
       </section>
     </aside>
     <hr />
